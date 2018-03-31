@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practical Quiz</string>
+    <string name="about_me">I have to say a lot about me, I am a civil I have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to say a lot about me, I am a civilI have to civilI have to say a lot about me, I am a civil</string>
+    <string name="username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="about_you">About You</string>
+    <string name="next">Next</string>
+    <string name="saved_details">Saved Details</string>
+</resources>
