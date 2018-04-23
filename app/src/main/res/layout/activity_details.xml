@@ -23,7 +23,7 @@
         android:layout_below="@id/toolbarDetail"
         android:layout_centerHorizontal="true"
         android:layout_height="140dp"
-        android:src="@drawable/ic_person_black_24dp"
+        android:src="@drawable/ic_usernew"
         app:civ_border_width="2dp"
         app:civ_border_color="@color/colorAccent"
         />
@@ -35,7 +35,7 @@
         android:textColor="@color/PrimaryText"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="Username"/>
+        android:text="@string/username"/>
     <TextView
         android:id="@+id/emailDetail"
         android:layout_marginTop="4dp"
@@ -45,7 +45,7 @@
         android:textColor="@color/SecondaryText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email@example.com"/>
+        android:text="@string/email_example"/>
     <TextView
         android:id="@+id/aboutMeDetail"
         android:layout_margin="16dp"

@@ -6,4 +6,5 @@
     <string name="about_you">About You</string>
     <string name="next">Next</string>
     <string name="saved_details">Saved Details</string>
+    <string name="email_example">Email@example.com</string>
 </resources>

@@ -22,8 +22,6 @@ public class DetailsActivity extends AppCompatActivity {
     @BindView(R.id.aboutMeDetail)
     TextView mAbout;
 
-    private SharedPreferences mSharedPrefs;
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +31,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        mSharedPrefs = this.getBaseContext().getSharedPreferences(MainActivity.SAVED_FILE_KEY,MODE_PRIVATE);
+        SharedPreferences mSharedPrefs = this.getBaseContext().getSharedPreferences(MainActivity.SAVED_FILE_KEY, MODE_PRIVATE);
         String username = mSharedPrefs.getString(MainActivity.USER_KEY,"PomPom");
         String email = mSharedPrefs.getString(MainActivity.EMAIL_KEY,"email@example.com");
         String about = mSharedPrefs.getString(MainActivity.ABOUT_KEY,"About me");
